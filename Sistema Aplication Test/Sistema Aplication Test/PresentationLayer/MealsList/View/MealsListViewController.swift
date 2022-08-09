@@ -58,6 +58,10 @@ extension MealsListViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let mealsListDataCell = mealsListData.meals![indexPath.row]
-        
+        let mealsDetailViewController = UIStoryboard(name: "MealsDetailViewController", bundle: nil).instantiateViewController(withIdentifier: "MealsDetailViewController") as! MealsDetailViewController
+        mealsDetailViewController.mealsDetailID = mealsListDataCell.idMeal!
+        mealsDetailViewController.mealsImageURL = mealsListDataCell.strMealThumb!
+        mealsDetailViewController.mealsName = mealsListDataCell.strMeal!
+        self.navigationController?.pushViewController(mealsDetailViewController, animated: true)
     }
 }
