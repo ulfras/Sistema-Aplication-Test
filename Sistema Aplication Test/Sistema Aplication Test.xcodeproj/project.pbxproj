@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		316C374028A1E4A100C24C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C373F28A1E4A100C24C55 /* AppDelegate.swift */; };
 		316C374228A1E4A100C24C55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C374128A1E4A100C24C55 /* SceneDelegate.swift */; };
-		316C374428A1E4A100C24C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C374328A1E4A100C24C55 /* ViewController.swift */; };
-		316C374728A1E4A100C24C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C374528A1E4A100C24C55 /* Main.storyboard */; };
+		316C374428A1E4A100C24C55 /* MealsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C374328A1E4A100C24C55 /* MealsListViewController.swift */; };
+		316C374728A1E4A100C24C55 /* MealsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C374528A1E4A100C24C55 /* MealsListViewController.storyboard */; };
 		316C374928A1E4A300C24C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316C374828A1E4A300C24C55 /* Assets.xcassets */; };
 		316C374C28A1E4A300C24C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316C374A28A1E4A300C24C55 /* LaunchScreen.storyboard */; };
+		316C375A28A1EA9600C24C55 /* MealsSeafoodResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C375928A1EA9600C24C55 /* MealsSeafoodResponseModel.swift */; };
+		316C375E28A1EB1700C24C55 /* MealsSeafoodAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C375D28A1EB1700C24C55 /* MealsSeafoodAPI.swift */; };
+		316C376928A1F1BA00C24C55 /* MealsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C376828A1F1BA00C24C55 /* MealsListPresenter.swift */; };
+		316C376D28A1F24900C24C55 /* MealsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C376B28A1F24900C24C55 /* MealsListTableViewCell.swift */; };
+		316C376E28A1F24900C24C55 /* MealsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316C376C28A1F24900C24C55 /* MealsListTableViewCell.xib */; };
+		316C377128A1FDD800C24C55 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C377028A1FDD800C24C55 /* UIImageView+Extension.swift */; };
+		316C377828A1FF5200C24C55 /* MealsDetailResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316C377728A1FF5200C24C55 /* MealsDetailResponseModel.swift */; };
+		D541FB071B955EBBCFD50AB3 /* Pods_Sistema_Aplication_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7084B322FECBD53D5739D5D /* Pods_Sistema_Aplication_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		103345B78E83C2BF01C1F194 /* Pods-Sistema Aplication Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sistema Aplication Test.debug.xcconfig"; path = "Target Support Files/Pods-Sistema Aplication Test/Pods-Sistema Aplication Test.debug.xcconfig"; sourceTree = "<group>"; };
 		316C373C28A1E4A100C24C55 /* Sistema Aplication Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sistema Aplication Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		316C373F28A1E4A100C24C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		316C374128A1E4A100C24C55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		316C374328A1E4A100C24C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		316C374628A1E4A100C24C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		316C374328A1E4A100C24C55 /* MealsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListViewController.swift; sourceTree = "<group>"; };
+		316C374628A1E4A100C24C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MealsListViewController.storyboard; sourceTree = "<group>"; };
 		316C374828A1E4A300C24C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316C374B28A1E4A300C24C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		316C374D28A1E4A300C24C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316C375928A1EA9600C24C55 /* MealsSeafoodResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsSeafoodResponseModel.swift; sourceTree = "<group>"; };
+		316C375D28A1EB1700C24C55 /* MealsSeafoodAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsSeafoodAPI.swift; sourceTree = "<group>"; };
+		316C376828A1F1BA00C24C55 /* MealsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListPresenter.swift; sourceTree = "<group>"; };
+		316C376B28A1F24900C24C55 /* MealsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsListTableViewCell.swift; sourceTree = "<group>"; };
+		316C376C28A1F24900C24C55 /* MealsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealsListTableViewCell.xib; sourceTree = "<group>"; };
+		316C377028A1FDD800C24C55 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		316C377728A1FF5200C24C55 /* MealsDetailResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsDetailResponseModel.swift; sourceTree = "<group>"; };
+		E7084B322FECBD53D5739D5D /* Pods_Sistema_Aplication_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sistema_Aplication_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7073B162B1CCB0A86C80A06 /* Pods-Sistema Aplication Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sistema Aplication Test.release.xcconfig"; path = "Target Support Files/Pods-Sistema Aplication Test/Pods-Sistema Aplication Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D541FB071B955EBBCFD50AB3 /* Pods_Sistema_Aplication_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E8F70A7097F94FDD6EE1C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7084B322FECBD53D5739D5D /* Pods_Sistema_Aplication_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		316C373328A1E4A100C24C55 = {
 			isa = PBXGroup;
 			children = (
 				316C373E28A1E4A100C24C55 /* Sistema Aplication Test */,
 				316C373D28A1E4A100C24C55 /* Products */,
+				C307C82EEDE40EBB973BBA53 /* Pods */,
+				2E8F70A7097F94FDD6EE1C8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,167 @@
 		316C373E28A1E4A100C24C55 /* Sistema Aplication Test */ = {
 			isa = PBXGroup;
 			children = (
-				316C373F28A1E4A100C24C55 /* AppDelegate.swift */,
-				316C374128A1E4A100C24C55 /* SceneDelegate.swift */,
-				316C374328A1E4A100C24C55 /* ViewController.swift */,
-				316C374528A1E4A100C24C55 /* Main.storyboard */,
-				316C374828A1E4A300C24C55 /* Assets.xcassets */,
-				316C374A28A1E4A300C24C55 /* LaunchScreen.storyboard */,
-				316C374D28A1E4A300C24C55 /* Info.plist */,
+				316C375328A1E8B600C24C55 /* App */,
+				316C375528A1E8CC00C24C55 /* Data Layer */,
+				316C375628A1E8DD00C24C55 /* PresentationLayer */,
+				316C375728A1E8EA00C24C55 /* Resources */,
+				316C375828A1E8F100C24C55 /* Utility */,
 			);
 			path = "Sistema Aplication Test";
+			sourceTree = "<group>";
+		};
+		316C375328A1E8B600C24C55 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				316C373F28A1E4A100C24C55 /* AppDelegate.swift */,
+				316C374128A1E4A100C24C55 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		316C375528A1E8CC00C24C55 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				316C375C28A1EADF00C24C55 /* API */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		316C375628A1E8DD00C24C55 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				316C377228A1FED700C24C55 /* MealsDetail */,
+				316C376228A1ED6A00C24C55 /* LaunchScreen */,
+				316C376128A1ED5A00C24C55 /* MealsList */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		316C375728A1E8EA00C24C55 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				316C374828A1E4A300C24C55 /* Assets.xcassets */,
+				316C374D28A1E4A300C24C55 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		316C375828A1E8F100C24C55 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				316C376F28A1FDBC00C24C55 /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		316C375C28A1EADF00C24C55 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				316C375D28A1EB1700C24C55 /* MealsSeafoodAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		316C376128A1ED5A00C24C55 /* MealsList */ = {
+			isa = PBXGroup;
+			children = (
+				316C374528A1E4A100C24C55 /* MealsListViewController.storyboard */,
+				316C376328A1EEA300C24C55 /* Model */,
+				316C376728A1F1AA00C24C55 /* Presenter */,
+				316C376628A1EEFF00C24C55 /* View */,
+			);
+			path = MealsList;
+			sourceTree = "<group>";
+		};
+		316C376228A1ED6A00C24C55 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				316C374A28A1E4A300C24C55 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		316C376328A1EEA300C24C55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				316C375928A1EA9600C24C55 /* MealsSeafoodResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		316C376628A1EEFF00C24C55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				316C376A28A1F22800C24C55 /* Cell */,
+				316C374328A1E4A100C24C55 /* MealsListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		316C376728A1F1AA00C24C55 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				316C376828A1F1BA00C24C55 /* MealsListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		316C376A28A1F22800C24C55 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				316C376B28A1F24900C24C55 /* MealsListTableViewCell.swift */,
+				316C376C28A1F24900C24C55 /* MealsListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		316C376F28A1FDBC00C24C55 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				316C377028A1FDD800C24C55 /* UIImageView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		316C377228A1FED700C24C55 /* MealsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				316C377528A1FEF600C24C55 /* View */,
+				316C377428A1FEF000C24C55 /* Presenter */,
+				316C377328A1FEEB00C24C55 /* Model */,
+			);
+			path = MealsDetail;
+			sourceTree = "<group>";
+		};
+		316C377328A1FEEB00C24C55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				316C377728A1FF5200C24C55 /* MealsDetailResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		316C377428A1FEF000C24C55 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		316C377528A1FEF600C24C55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C307C82EEDE40EBB973BBA53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				103345B78E83C2BF01C1F194 /* Pods-Sistema Aplication Test.debug.xcconfig */,
+				F7073B162B1CCB0A86C80A06 /* Pods-Sistema Aplication Test.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 316C375028A1E4A300C24C55 /* Build configuration list for PBXNativeTarget "Sistema Aplication Test" */;
 			buildPhases = (
+				CDA9FFA9A698A3468AC9A8E2 /* [CP] Check Pods Manifest.lock */,
 				316C373828A1E4A100C24C55 /* Sources */,
 				316C373928A1E4A100C24C55 /* Frameworks */,
 				316C373A28A1E4A100C24C55 /* Resources */,
+				B781BE877C5E059135D9939F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,34 +308,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				316C376E28A1F24900C24C55 /* MealsListTableViewCell.xib in Resources */,
 				316C374C28A1E4A300C24C55 /* LaunchScreen.storyboard in Resources */,
 				316C374928A1E4A300C24C55 /* Assets.xcassets in Resources */,
-				316C374728A1E4A100C24C55 /* Main.storyboard in Resources */,
+				316C374728A1E4A100C24C55 /* MealsListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B781BE877C5E059135D9939F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sistema Aplication Test/Pods-Sistema Aplication Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sistema Aplication Test/Pods-Sistema Aplication Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sistema Aplication Test/Pods-Sistema Aplication Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA9FFA9A698A3468AC9A8E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sistema Aplication Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		316C373828A1E4A100C24C55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316C374428A1E4A100C24C55 /* ViewController.swift in Sources */,
+				316C374428A1E4A100C24C55 /* MealsListViewController.swift in Sources */,
+				316C376928A1F1BA00C24C55 /* MealsListPresenter.swift in Sources */,
+				316C376D28A1F24900C24C55 /* MealsListTableViewCell.swift in Sources */,
+				316C377128A1FDD800C24C55 /* UIImageView+Extension.swift in Sources */,
+				316C375A28A1EA9600C24C55 /* MealsSeafoodResponseModel.swift in Sources */,
+				316C375E28A1EB1700C24C55 /* MealsSeafoodAPI.swift in Sources */,
 				316C374028A1E4A100C24C55 /* AppDelegate.swift in Sources */,
 				316C374228A1E4A100C24C55 /* SceneDelegate.swift in Sources */,
+				316C377828A1FF5200C24C55 /* MealsDetailResponseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		316C374528A1E4A100C24C55 /* Main.storyboard */ = {
+		316C374528A1E4A100C24C55 /* MealsListViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				316C374628A1E4A100C24C55 /* Base */,
 			);
-			name = Main.storyboard;
+			name = MealsListViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		316C374A28A1E4A300C24C55 /* LaunchScreen.storyboard */ = {
@@ -282,6 +514,7 @@
 		};
 		316C375128A1E4A300C24C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103345B78E83C2BF01C1F194 /* Pods-Sistema Aplication Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,10 +522,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UT5GP7P326;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sistema Aplication Test/Info.plist";
+				INFOPLIST_FILE = "Sistema Aplication Test/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MealsListViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +543,7 @@
 		};
 		316C375228A1E4A300C24C55 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7073B162B1CCB0A86C80A06 /* Pods-Sistema Aplication Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,10 +551,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UT5GP7P326;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sistema Aplication Test/Info.plist";
+				INFOPLIST_FILE = "Sistema Aplication Test/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = MealsListViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
